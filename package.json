@@ -6,6 +6,8 @@
     "dev:all": "concurrently \"bun run dev:webhook\" \"bun run dev\"",
     "dev": "next dev",
     "dev:webhook": "ngrok http --url=sound-lioness-cleanly.ngrok-free.app 3000",
+    "studio": "drizzle-kit studio",
+    "push": "bun drizzle-kit push",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
