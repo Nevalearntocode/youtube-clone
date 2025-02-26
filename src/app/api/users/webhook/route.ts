@@ -89,8 +89,6 @@ export async function POST(req: Request) {
       });
     }
 
-    console.log(data);
-
     await db
       .update(users)
       .set({
